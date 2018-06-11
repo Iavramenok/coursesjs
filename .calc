@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Getting Started with JavaScript</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    body { padding: 30px;
+      }
+        
+</style>
+</head>
+
+<body>
+
+
+<form>
+<input type="text" id="res" value="">
+<br>
+<input type="button" value="0" id="b0">
+<input type="button" value="1" id="b1">
+<input type="button" value="2" id="b2">
+<input type="button" value="C" id="clears">
+<br>
+<input type="button" value="3" id="b3">
+<input type="button" value="4" id="b4">
+<input type="button" value="5" id="b5">
+<br>
+<input type="button" value="6" id="b6">
+<input type="button" value="7" id="b7">
+<input type="button" value="8" id="b8">
+<br>
+<input type="button" value="9" id="b9">
+<input type="button" value="+" id="plus">
+<input type="button" value="-" id="minus">
+<input type="button" value="=" id="equal">
+</form>
+
+<script type="text/javascript">
+    var a, b; 
+
+     b0.onclick = function(){
+     if (a===undefined){
+        res.value = b0.value;
+        a = parseInt(b0.value);
+     }else{
+        res.value += b0.value;
+        b = parseInt(b0.value);
+     }
+    }
+     
+    b1.onclick = function(){
+     if (a===undefined){
+        res.value = b1.value;
+        a = parseInt(b1.value);
+     }else{
+        res.value += b1.value;
+        b = parseInt(b1.value);
+     }
+    }
+    
+    b2.onclick = function(){
+     if (a===undefined){
+        res.value = b2.value;
+        a = parseInt(b2.value);
+     }else{
+        res.value += b2.value;
+        b = parseInt(b2.value);
+     }
+    }
+
+    b3.onclick = function(){
+     if (a===undefined){
+        res.value = b3.value;
+        a = parseInt(b3.value);
+     }else{
+        res.value += b3.value;
+        b = parseInt(b3.value);
+     }
+    }
+    
+    b4.onclick = function(){
+     if (a===undefined){
+        res.value = b4.value;
+        a = parseInt(b4.value);
+     }else{
+        res.value += b4.value;
+        b = parseInt(b4.value);
+     }
+    }
+    
+    b5.onclick = function(){
+     if (a===undefined){
+        res.value = b5.value;
+        a = parseInt(b5.value);
+     }else{
+        res.value += b5.value;
+        b = parseInt(b5.value);
+     }
+    }
+    
+    b6.onclick = function(){
+     if (a===undefined){
+        res.value = b6.value;
+        a = parseInt(b6.value);
+     }else{
+        res.value += b6.value;
+        b = parseInt(b6.value);
+     }
+    }
+    
+    b7.onclick = function(){
+     if (a===undefined){
+        res.value = b7.value;
+        a = parseInt(b7.value);
+     }else{
+        res.value += b7.value;
+        b = parseInt(b7.value);
+     }
+    }
+    
+     b8.onclick = function(){
+     if (a===undefined){
+        res.value = b8.value;
+        a = parseInt(b8.value);
+     }else{
+        res.value += b8.value;
+        b = parseInt(b8.value);
+     }
+    }
+     
+      b9.onclick = function(){
+     if (a===undefined){
+        res.value = b9.value;
+        a = parseInt(b9.value);
+     }else{
+        res.value += b9.value;
+        b = parseInt(b9.value);
+     }
+    }
+
+
+    plus.onclick = function(){
+        res.value += plus.value;
+
+    }
+    
+    equal.onclick = function(){
+        res.value = a+b;
+        a = undefined;
+        b = undefined;
+    }
+    
+  
+
+</script>
+
+</body>
+</html>
